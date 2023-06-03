@@ -1,12 +1,13 @@
+import { ChakraProvider } from '@chakra-ui/react';
+
 import './App.css';
-import Card from './components/Card';
 
 function App() {
-  return (
-    <div className="app">
-      <Card>Hello World!</Card>
-    </div>
-  );
+	return (
+		<ChakraProvider>
+			<div>Hello World!</div>
+		</ChakraProvider>
+	);
 }
 
 export default App;
