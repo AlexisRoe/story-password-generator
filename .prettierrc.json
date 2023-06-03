@@ -3,6 +3,6 @@
   "tabWidth": 2,
   "trailingComma": "all",
   "singleQuote": true,
-  "useTabs": false,
+  "useTabs": true,
   "printWidth": 120
 }
